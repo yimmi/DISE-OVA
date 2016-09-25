@@ -5,13 +5,12 @@
 	height: auto;
 	margin: auto;
 	position: relative;
-	
 	margin-top: 55px;
 	
 }
 /*etiquetas*/
 body{
-background-image: url(../img/fondo.jpg);
+background: #Withe;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -20,7 +19,7 @@ h1{
 
 /*font-family: "Shadows Into Light", verdana;*/
 color: white;
-/*margin-left: 5px;*/
+margin-left: 50px;
 font-size: 30px; 
 text-align: center;
 margin-top: 170px;
@@ -31,11 +30,12 @@ background: #0033ff;
 h2{
 /*font-family: "Indie flower", verdana;*/
 color: black;
+margin-left: -100px;
+font-size: 30px; 
 
-font-size: 25px; 
-text-align: left;
 margin-top: 50px;
-border-radius: 10px;
+
+
 }
 
 h3{
@@ -46,73 +46,83 @@ font-size: 13px;
 text-align: center;
 }
 
-header{
+/*header{
 	font-color: SteelBlue;
 	width: 1000px;
 	height: 120px;
-	margin-top: 15px;
-	
+	margin-top: 150px;
 	background: rgba(255, 255, 255, 3.5);
 	border-radius: 10px;
 }
+*/
 
-ul{
-/*margin: auto;*/
-padding-top: 4px;
-margin-top: 5px;
+/*ul{
+
+padding-top: 40px;
+margin-top: 50;
 }
 
-li{
-float: left;
+l/*i {
+float: left
 list-style-type: none;
 padding: 10px;
 background: SteelBlue;
 margin: 2px;
 box-shadow: 0 0 8px red inset;
 border-radius: 7px;
+}*/
 
-}
-
-section{
+/*section{
 	width: 1000px;
 	height: 400px;
-	background: gray;
+	background: GhostWhite;
 	float: left;
-	border-radius: 10px;
-	
-	
-}
+	border-radius: 5px;	
+}*/
+#banner{
 
+	float:left;
+	width:400px;
+	height: 300px;
+	border:3px solid red;
+	background-image: url(img/ectbi.jpg);
+	background-size: 100%;
+	animation: banner 10s infinite;
+	margin-left: 50px;
+}
+#leyenda{
+float:left;
+}
+p{
+	width:550px;
+	height: auto;
+	font-size: 17px;
+	font: black;
+	line-height:24px;
+	margin-left: 50px;
+	text-align: justify;
+	background: GhostWhite;
+	margin-top: -250px;
+
+}
 
 footer{
 	width: 1000px;
 	height: 30px;
 	background: black;
 	float: left;
-	margin-top: 250px;
-	border-radius: 10px;
+	margin-top: 50px;
 
 }
-p{
-	width: 1000px;
-	height: autopx;
-	font-size: 17px;
-	font: black;
-	line-height:24px;
-	padding: 15px;
-	text-align: justify;
-	background: GhostWhite;
-	margin-top: 450px;
-}
 
-/*clase*/
+/*clase
 .ancho_menu_home{width: 1000px;}
 .ancho_menu_paginas{width: 70px;}
 
 .menu:link{color: black; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
 .menu:hover{ color: white; text-decoration: none; text-shadow: 0 0 5px white; }
-.menu:active{color: white; text-decoration: none;}
+.menu:active{color: white; text-decoration: none;}*/
 
 
 

@@ -15,24 +15,63 @@
 		<link rel="stylesheet" href="css/normalize.css"> <!-- establece una relacion entre un enlace y la pagina web...-->
 		<!-- <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Ligth|Indie+Flower" rel="stylesheet" type="text/css"> ..-->
 		<link rel="stylesheet" href="css/style.css"> <!-- establece una relacion entre un enlace y la pagina web...-->
+		
+		<style type="text/css">
 
+
+#header {
+margin:auto;
+width:600;
+font-family:arial, helvetica, sans-serif;
+}
+
+ul, ol{
+list-style:none;
+}
+
+.nav li a{
+background-color:#006680;
+color:#fff;
+text-decoration:none;
+padding:10px 15px;
+display:block;
+}
+
+.nav li a:hover{
+background-color:#F2B80D;
+}
+.nav > li{
+float:left;
+}
+
+.nav li ul{
+display:none;
+position:absolute;
+min-width:140px;
+
+}
+
+.nav li:hover > ul{
+display:block;
+}
+</style>
 	</head>
 	<DIV STYLE="position:absolute; top:20px; right:170px">
-<IMG SRC="img/ecbti.jpg" border=28>
-	<figcaption>
+		<IMG SRC="img/ecbti.jpg" border=28>
+			<figcaption>
 				<span>
 				Escuela de Ciencias Básicas Tecnologías e Ingenierías-ECBTI-<a href="htpps://wwww.unad.edu.co" > Ir al sitio </a>	
 				</span>
 			</figcaption>
-</DIV>
-<DIV STYLE="position:absolute; top:20px; left:160px">
-<IMG SRC="img/unad.jpg" border=28>
-	<figcaption>
+	</DIV>
+	<DIV STYLE="position:absolute; top:20px; left:160px">
+		<IMG SRC="img/unad.jpg" border=28>
+			<figcaption>
 				<span>
 				Universidad Nacional Abierta y a Distancia-UNAD-<a href="https://wwww.unad.edu.co" > Ir al sitio </a>	
 				</span>
 			</figcaption>
-</DIV>
+	</DIV>
 
 	<body>
 
@@ -41,31 +80,79 @@
 				<h1>OBJETO VIRTUAL DE APRENDIZAJE-OVA-</h1>
 				<h2>  DISEÑO DE SITIOS WEB</h2>
 			</header>
-
-	<nav>
-		<ul clas="menu">
+		</DIV>
+		
+		
+	<div id="header">
+		<ul class="nav">
+	
 			
-			<li><a href=" " class="menu">INICIO</a></li>
-            <li><a href=" " class="menu">LECTURAS</a></li>
-            <li><a href=" " class="menu">MULTIMEDIA</a></li>
-            <li><a href=" " class="menu">ACTIVIDADES</a></li>
-            <li><a href=" " class="menu">AUTORES</a></li>
-		</ul>
-	</nav>
-<div>
+		<li><a href=" " >INICIO</a>
+           <ul>
+		   <li><a href=" ">INFORMACIÓN</a></li>
+
+			</ul>
+		</li>
+			
+		
+		<li><a href=" ">LECTURAS</a>
+		
+			<ul>
+            <li><a href=" " >LECTURAS 1</a></li>
+            <li><a href=" " >LECTURAS 2</a></li>
+            <li><a href=" " >LECTURAS 3</a></li>
+			</ul>
+		</li>
+				
+		
+        <li><a href=" ">MULTIMEDIA</a>
+		
+			<ul>
+             <li><a href=" ">AUDIOS</a></li>
+            <li><a href=" " >VIDEOS</a></li>
+         
+			</ul>
+		
+		</li>
+			
+		
+        <li><a href=" " >ACTIVIDADES</a>
+			<ul>
+            <li><a href=" " >CRUSIGRAMA</a></li>
+            <li><a href=" " >SOPA DE LETRAS</a></li>
+            <li><a href=" " >ACTIVIDADES</a></li>
+            <li><a href=" " >AUTORES</a></li>
+			<li><a href=" " >AUTORES</a></li>
+			</ul>
+		</li>
+		
+		
+        <li><a href=" " >AUTORES</a>
+			<ul>
+            <li><a href=" " >AUTOR 1</a></li>
+            <li><a href=" " >AUTOR 2</a></li>
+            <li><a href=" " >AUTOR 3</a></li>
+            <li><a href=" " >TODOS </a></li>
+			</ul>
+		 </li>
+		</div>
+		
+<DIV id="banner">
+</DIV>	
+
+<!-- <DIV>		
 <section>
 <aside>
 	<UL>
 		<!-- <li><a href=""class="menu" >INICIO</a></li>
 		<li><a href=" "class="menu" >LECTURAS</a></li>
-		<li><a href=" "class="menu" >MULTIMEDIA</a></li>...-->
+		<li><a href=" "class="menu" >MULTIMEDIA</a></li>
 	</UL>
 </aside>
 </section>
-</div>
+</div>...-->
 
-
-<div>
+<div id="leyenda">
 <article>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -77,17 +164,11 @@ sit amet semper libero enim a erat. Proin eleifend ultricies aliquet.
 Vivamus interdum enim rutrum tellus tincidunt, quis consectetur lorem finibus.
 </p>
 </article>
-</section >
-
-<footer><h3>Usted se ha identificado como YIMMI ORLANDO GUZMAN (Salir)</h3></footer>
-
 </DIV>
-
+<footer><h3>Usted se ha identificado como YIMMI ORLANDO GUZMAN (Salir)</h3></footer>
 	</body>
 
 		<script src="js/modernizr.js"></script> <!-- llamando al la etiquta modernizr...-->
 		<script src="js/prefixfree.min.js"></script> <!-- establece una relacion entre un enlace y la pagina web...-->
 		<script src="js/jquery-3.1.0.js"></script> <!-- establece una relacion entre un enlace y la pagina web...-->
-
-
 	</html>

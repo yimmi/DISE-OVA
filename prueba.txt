@@ -1,0 +1,137 @@
+<!doctype html>
+
+
+<html lan="es" >
+
+<!-- hola soy un comentario...-->
+
+	<head>
+
+		<meta charset="utf-8"> <!-- hola soy un comentario...-->
+		<meta content="Yimmi orlando Guzmán caicedo" name "author" /><!-- nombre del autor del  la pagina...-->
+		<meta content="plantilla para OVA" name "description" /> <!-- descripcion de la pagina...-->
+		<meta content="etiqueta1", "etiqueta1", "etiqueta1", "etiqueta1" name " keywords" /> <!-- palabras claves...-->
+		<title>OBJETO VIRTUAL DE APRENDIZAJE-UNAD-</title> <!--titulo de la pagina...-->
+		<link rel="stylesheet" href="css/normalize.css"> <!-- establece una relacion entre un enlace y la pagina web...-->
+		<!-- <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Ligth|Indie+Flower" rel="stylesheet" type="text/css"> ..-->
+		<link rel="stylesheet" href="css/style.css"> <!-- establece una relacion entre un enlace y la pagina web...-->
+#contenidos{
+
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	margin-top: 55px;
+	
+}
+/*etiquetas*/
+body{
+background: #Withe;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+
+/*font-family: "Shadows Into Light", verdana;*/
+color: white;
+margin-left: 5px;
+font-size: 30px; 
+text-align: center;
+margin-top: 170px;
+background: #0033ff;
+
+}
+
+h2{
+/*font-family: "Indie flower", verdana;*/
+ccolor: white;
+margin-left: 0px;
+font-size: 30px; 
+text-align: center;
+margin-top: 70px;
+}
+
+h3{
+/*font-family: "Indie flower", verdana;*/
+color: white;
+font-size: 13px; 
+text-align: center;
+}
+
+#banner{
+	width:700px;
+	height: 400px;
+	border:3px solid red;
+	margin: auto;
+	
+	background-image: url(img/ectbi.jpg);
+	background-size: 100%;
+	animation: banner 10s infinite;
+	margin-top: 95px;
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+margin-top: -4px;
+}
+
+{
+float: left{
+list-style-type: none;
+padding: 10px;
+background: SteelBlue;
+margin: 2px;
+box-shadow: 0 0 8px red inset;
+border-radius: 7px;
+
+}
+
+section{
+	width: 1000px;
+	height: 400px;
+	background: GhostWhite;
+	float: left;
+	border-radius: 5px;	
+}
+
+footer{
+	width: 1000px;
+	height: 30px;
+	background: black;
+	float: left;
+	margin-top: 250px;
+	border-radius: 10px;
+
+}
+p{
+	width: 1000px;
+	height: autopx;
+	font-size: 17px;
+	font: black;
+	line-height:24px;
+	padding: 15px;
+	text-align: justify;
+	background: GhostWhite;
+	margin-top: 450px;
+}
+
+/*clase
+.ancho_menu_home{width: 1000px;}
+.ancho_menu_paginas{width: 70px;}
+
+.menu:link{color: black; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{ color: white; text-decoration: none; text-shadow: 0 0 5px white; }
+.menu:active{color: white; text-decoration: none;}*/
+
+
+	</body>
+
+		<script src="js/modernizr.js"></script> <!-- llamando al la etiquta modernizr...-->
+		<script src="js/prefixfree.min.js"></script> <!-- establece una relacion entre un enlace y la pagina web...-->
+		<script src="js/jquery-3.1.0.js"></script> <!-- establece una relacion entre un enlace y la pagina web...-->
+
+
+	</html>
