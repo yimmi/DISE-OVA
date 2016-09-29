@@ -10,7 +10,7 @@
 }
 /*etiquetas*/
 body{
-background: #Withe;
+background: white;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -87,11 +87,11 @@ border-radius: 7px;
 	border:3px solid red;
 	background-image: url(img/ectbi.jpg);
 	background-size: 100%  100%;
-	animation: banner 10s infinite;
+	animation: .banner 10s infinite;
 	margin-left: 50px;
 }
 
-@keyframes banner{
+@keyframes #banner{
 	0%, 30%{
 		background-image:url (img/ecbti.jpg);
 		opacity:1;
