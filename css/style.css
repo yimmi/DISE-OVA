@@ -10,7 +10,7 @@
 }
 /*etiquetas*/
 body{
-background: white;
+background: White;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -79,7 +79,7 @@ border-radius: 7px;
 	float: left;
 	border-radius: 5px;	
 }*/
-.banner{
+#banner{
 
 	float:left;
 	width:400px;
@@ -112,7 +112,7 @@ border-radius: 7px;
 		opacity: 1;
 	}
 }
-.leyenda{
+#leyenda{
 float:left;
 }
 p{
