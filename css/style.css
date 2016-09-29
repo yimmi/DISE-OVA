@@ -79,7 +79,7 @@ border-radius: 7px;
 	float: left;
 	border-radius: 5px;	
 }*/
-#banner{
+.banner{
 
 	float:left;
 	width:400px;
@@ -91,7 +91,7 @@ border-radius: 7px;
 	margin-left: 50px;
 }
 
-@keyframes #banner{
+@keyframes .banner{
 	0%, 30%{
 		background-image:url (img/ecbti.jpg);
 		opacity:1;
@@ -112,7 +112,7 @@ border-radius: 7px;
 		opacity: 1;
 	}
 }
-#leyenda{
+.leyenda{
 float:left;
 }
 p{
